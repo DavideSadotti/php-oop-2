@@ -39,8 +39,8 @@ class Smartphone extends Prodotto{
 
     // metodi
     public function getSmartphone(){
-        foreach($this as $value){
-            echo $value;
+        foreach($this as $key => $value){
+            echo '<li>' . $key . ' = ' . $value . '</li>';
         }
     }
 }
