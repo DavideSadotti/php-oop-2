@@ -15,6 +15,6 @@ include 'prodotto-informatica.class.php';
     <title>Prodotti | Informatica</title>
 </head>
 <body>
-    <p><?php echo $matePro->getSmartphone(); ?></p>
+    <?php echo $matePro->getSmartphone(); ?>
 </body>
 </html>
